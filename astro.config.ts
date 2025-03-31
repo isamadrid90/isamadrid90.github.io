@@ -114,8 +114,9 @@ export default defineConfig({
   },
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
-  // ! Please remember to replace the following site property with your own domain
-  site: "http://astrocitrus.artemkutsan.pp.ua/",
+  // GitHub Pages deployment
+  site: "https://isagarrido-dev.github.io",
+  base: "/isagarrido-dev",
   vite: {
     build: {
       sourcemap: true, // Source maps generation

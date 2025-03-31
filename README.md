@@ -1,29 +1,25 @@
-<div align="center">
-  <img alt="Astro Citrus logo" src="https://github.com/ArtemKutsan/astro-citrus/blob/main/src/assets/images/logo.svg" width="70" />
-</div>
 <h1 align="center">
-  Astro Citrus
+  Isabel Garrido's Blog
 </h1>
 
-Astro Citrus is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
+My personal blog and portfolio built with Astro framework, based on the Astro Citrus theme.
 
 ## Table Of Contents
 
 1. [Key Features](#key-features)
-2. [Demo](#demo)
+2. [Live Site](#live-site)
 3. [Quick start](#quick-start)
-4. [Preview](#preview)
-5. [Commands](#commands)
-6. [Configure](#configure)
-7. [Updating](#updating)
-8. [Adding posts and notes](#adding-posts-and-notes)
+4. [Commands](#commands)
+5. [Configure](#configure)
+6. [Updating](#updating)
+7. [Adding posts and notes](#adding-posts-and-notes)
    - [Post Frontmatter](#post-frontmatter)
    - [Note Frontmatter](#note-frontmatter)
    - [Frontmatter Snippet](#frontmatter-snippet)
-9. [Pagefind search](#pagefind-search)
-10. [Analytics](#analytics)
-11. [Deploy](#deploy)
-12. [Acknowledgment](#acknowledgment)
+8. [Pagefind search](#pagefind-search)
+9. [Analytics](#analytics)
+10. [Deploy](#deploy)
+11. [Acknowledgment](#acknowledgment)
 
 ## Key Features
 
@@ -45,31 +41,27 @@ Astro Citrus is a simple opinionated starter built with the Astro framework. Use
 - [Astro Icon](https://github.com/natemoo-re/astro-icon) svg icon component
 - [Rehype Pretty Code](https://rehype-pretty.pages.dev/) code blocks and syntax highlighter
 
-## Demo
+## Live Site
 
-Check out the [Demo](https://astrocitrus.netlify.app/)
+Visit my blog at [isagarrido.github.io/isagarrido-dev](https://isagarrido.github.io/isagarrido-dev/)
 
 ## Quick start
 
-[Create a new repo](https://github.com/artemkutsan/astro-citrus/generate) from this template.
+To run this blog locally:
 
 ```bash
-# npm 7+
-npm create astro@latest -- --template artemkutsan/astro-citrus
+# Clone the repository
+git clone https://github.com/isagarrido/isagarrido-dev.git
+cd isagarrido-dev
 
-# pnpm
-pnpm dlx create-astro --template artemkutsan/astro-citrus
+# Install dependencies
+pnpm install
+
+# Start the development server
+pnpm dev
 ```
 
-[![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/artemkutsan/astro-citrus) [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fartemkutsan%2Fastro-citrus&project-name=astro-citrus)
-
-## Preview
-
-| ![Light Theme 01](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot01.png?raw=true) | ![Light Theme 02](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot02.png?raw=true) |
-|-------------|-------------|
-| ![Dark Theme 03](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot03.png?raw=true) | ![Light Theme 04](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot04.png?raw=true) |
-| ![Light Theme 05](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot05.png?raw=true) | ![Light Theme 06](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot06.png?raw=true) |
-| ![Dark Theme 07](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot07.png?raw=true) | ![Dark Theme 08](https://github.com/ArtemKutsan/astro-citrus/blob/main/public/images/screenshot08.png?raw=true) |
+The site will be available at http://localhost:3000/isagarrido-dev/
 
 ## Commands
 
@@ -166,9 +158,28 @@ You may be asked to included a snippet inside the **HEAD** tag of your website w
 
 ## Deploy
 
-[Astro docs](https://docs.astro.build/en/guides/deploy/) has a great section and breakdown of how to deploy your own Astro site on various platforms and their idiosyncrasies.
+This blog is configured to deploy automatically to GitHub Pages using GitHub Actions.
 
-By default the site will be built (see [Commands](#commands) section above) to a `/dist` directory.
+### GitHub Pages Deployment
+
+The site is set up to deploy to GitHub Pages with the following configuration:
+
+1. A GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys the site whenever changes are pushed to the main branch.
+2. The Astro configuration in `astro.config.ts` is set up with:
+   - `site: "https://isagarrido.github.io"`
+   - `base: "/isagarrido-dev"`
+
+To deploy your own version:
+
+1. Fork this repository
+2. Update the `site` and `base` properties in `astro.config.ts` to match your GitHub username and repository name
+3. Update the site information in `src/site.config.ts`
+4. Enable GitHub Pages in your repository settings:
+   - Go to Settings > Pages
+   - Set the source to "GitHub Actions"
+5. Push changes to the main branch to trigger the deployment
+
+For more information on deploying Astro sites, see the [Astro deployment docs](https://docs.astro.build/en/guides/deploy/).
 
 ## Acknowledgment
 
