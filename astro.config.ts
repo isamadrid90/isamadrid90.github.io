@@ -115,7 +115,7 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
   // GitHub Pages deployment
-  site: "https://isagarrido-dev.github.io",
+  site: "https://isamadrid90.github.io",
   base: "/isagarrido-dev",
   vite: {
     build: {
