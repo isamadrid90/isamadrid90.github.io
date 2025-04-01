@@ -116,7 +116,6 @@ export default defineConfig({
   prefetch: true,
   // GitHub Pages deployment
   site: "https://isamadrid90.github.io",
-  base: "/isagarrido-dev",
   vite: {
     build: {
       sourcemap: true, // Source maps generation
