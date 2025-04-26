@@ -1,5 +1,6 @@
 ---
 title: "Upload a file to S3 - Unit test"
+description: "Upload a file to S3 - Unit test"
 publishDate: "13 March 2024"
 cuid: cltpzd5dr000008jqd8803bdb
 slug: upload-a-file-to-s3-unit-test

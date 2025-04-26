@@ -1,5 +1,6 @@
 ---
 title: "BuildStuff 2024"
+description: "BuildStuff 2024"
 publishDate: "24 November 2024"
 cuid: cm3vyye7h002b09l4fsba1jg1
 slug: buildstuff-2024

@@ -1,5 +1,6 @@
 ---
 title: "Refactorizando Kotlin con AI Assitant"
+description: "Refactorizando Kotlin con AI Assitant"
 publishDate: "6 August 2023"
 cuid: clkztfm2m000109l4er95bvad
 slug: refactorizando-kotlin-con-ai-assitant

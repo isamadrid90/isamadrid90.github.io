@@ -1,5 +1,6 @@
 ---
 title: "A thought on Integration tests"
+description: "A thought on Integration tests"
 publishDate: "19 May 2024"
 cuid: clwdplifs000009l1dlwd8t2m
 slug: a-thought-on-integration-tests

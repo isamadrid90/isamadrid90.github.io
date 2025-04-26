@@ -1,5 +1,6 @@
 ---
 title: "Mutating a Symfony project @ Symfonycon22"
+description: "Mutating a Symfony project @ Symfonycon22"
 publishDate: "18 November 2022"
 slug: mutating-a-symfony-project-symfonycon22
 tags: ["symfony", "mutation-testing", "php", "infection"]

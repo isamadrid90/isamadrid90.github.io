@@ -1,5 +1,6 @@
 ---
 title: "Adiós a los commits de WIP"
+description: "Adiós a los commits de WIP"
 publishDate: "9 July 2023"
 cuid: cljv8z5t6000l0akx70tde1z8
 slug: adios-a-los-commits-wip

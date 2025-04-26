@@ -1,5 +1,6 @@
 ---
 title: "Upload a file to S3"
+description: "Upload a file to S3"
 seoTitle: "upload s3 aws kotlin sdk"
 publishDate: "29 February 2024"
 cuid: clt6x7tj6000b09jw6pgh0mf0

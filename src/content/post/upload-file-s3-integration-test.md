@@ -1,5 +1,6 @@
 ---
 title: "Uploading a file to S3 - Integration test"
+description: "Uploading a file to S3 - Integration test"
 seoTitle: "S3 File Upload Integration Test"
 seoDescription: "Learn how to perform integration tests for uploading files to AWS S3 using Test Containers and Localstack"
 publishDate: "6 June 2024"

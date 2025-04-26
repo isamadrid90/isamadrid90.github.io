@@ -1,5 +1,6 @@
 ---
 title: "The matter of belonging"
+description: "The matter of belonging"
 publishDate: "8 November 2022"
 slug: the-matter-of-belonging
 tags: ["devops", "community", "personal"]

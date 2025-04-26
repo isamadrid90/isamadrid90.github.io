@@ -1,5 +1,6 @@
 ---
 title: "Mutation Testing in Kotlin II"
+description: "Mutation Testing in Kotlin II"
 publishDate: "15 January 2024"
 slug: mutation-testing-in-kotlin-2
 tags: ["kotlin", "mutation-testing", "pitest", "github-actions"]

@@ -1,5 +1,6 @@
 ---
 title: "Bye Bye WIP commit messages"
+description: "Bye Bye WIP commit messages"
 publishDate: "9 July 2023"
 cuid: cljv9hll5000309jqbmqy3jn3
 slug: bye-bye-wip-commits
