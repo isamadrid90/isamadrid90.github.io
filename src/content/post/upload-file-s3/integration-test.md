@@ -8,6 +8,8 @@ cuid: clx2v70e000000amf8qgw8bk4
 slug: uploading-a-file-to-s3-integration-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1720019433612/7d300404-e931-45af-9209-5dbfc50f9a78.png
 tags: ["aws", "testing", "kotlin", "localstack", "testcontainers"]
+seriesId: upload-file-s3
+orderInSeries: 3
 
 ---
 

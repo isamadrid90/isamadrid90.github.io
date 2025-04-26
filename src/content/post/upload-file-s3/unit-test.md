@@ -6,7 +6,8 @@ cuid: cltpzd5dr000008jqd8803bdb
 slug: upload-a-file-to-s3-unit-test
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1710345167080/1fe89195-303e-4224-8d0e-313113b0addc.png
 tags: ["unit-testing", "aws", "testing", "kotlin", "kotlin-coroutines"]
-
+seriesId: upload-file-s3
+orderInSeries: 2
 ---
 
 Testing is one of the things I've dedicated more time to in my professional life. Even though it's an essential part of our daily job, I still find test suites that do not ensure the correct behavior of a feature. That is why I wanted a separate post to discuss how to test this example correctly.

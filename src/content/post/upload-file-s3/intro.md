@@ -7,7 +7,8 @@ cuid: clt6x7tj6000b09jw6pgh0mf0
 slug: aws-sdk-kotlin-uploading-to-s3
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709192597524/aba41a4c-5da4-4b48-98bd-f995b993fdb2.png
 tags: ["aws", "kotlin", "sdk", "s3"]
-
+seriesId: upload-file-s3
+orderInSeries: 1
 ---
 
 Last November, AWS released the first version of [aws-sdk-kotlin](https://github.com/awslabs/aws-sdk-kotlin), and since then, the team has released several versions. You may be wondering why it is interesting if the Kotlin projects could use the AWS Java SDK. This new SDK uses coroutines, one exciting feature of Kotlin.
